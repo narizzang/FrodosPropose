@@ -1,0 +1,26 @@
+* {margin : 0; padding : 0;}
+body {width : 960px; margin : 0 auto;}
+header {height : 100px; text-align: center; line-height: 100px; font-family: 'Do Hyeon', sans-serif; font-size : 30pt;}
+
+img { display : none; z-index: 1; position : absolute;}
+#title { display : block; width: 700px; margin-left: 130px; margin-top : 15px;}
+#gameZone {position : relative;}
+#ruleCanvas { background : #FFFFFF; }
+#infoCanvas { background : #FFFFFF; position : absolute; top : 455px; left : 130px; }
+#gameCanvas { background : #F2F2F2; display : none; position : absolute; top : 0px; left : 130px;}
+#left {display : inline-block; position : absolute; width : 130px; height : 480px; left : 0;}
+#right {display : inline-block; position : absolute; width : 130px; height : 480px; left : 830px;}
+
+#neo { display : block; position : absolute; width : 130px; height : 130px; top : 350px;}
+#prodo {display : block; position : absolute; width : 130px; height : 130px;  top : 350px;}
+#items {width : 130px; text-align: center;  font-family: 'Do Hyeon', sans-serif; font-size : 14pt;}
+
+.item {display : none; width : 60px; margin : 0 35px 0 35px;}
+.char {display : none; width : 130px;}
+
+#gameOver { display : none;  width : 700px; height : 450px; position : absolute;
+	line-height: 450px; text-align: center;
+	top : 0; left : 130px; font-size: 50pt; font-style: "Arial";}
+#gameEnd {display : none; width : 960px; height : 500px; position : absolute; left : 0; top : 0; font-size : 30pt; background: white; z-index: 1; text-align: center; line-height: 100px;}
+#happyEnd {display : none; width: 400px; margin-left: 250px; margin-top: 50px;}
+#restartBtn { display : none; }
